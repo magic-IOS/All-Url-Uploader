@@ -61,7 +61,7 @@ class Config(object):
     HTTP_PROXY = os.environ.get("HTTP_PROXY", "")
 
     # set timeout for subprcess
-    PROCESS_MAX_TIMEOUT = 3700
+    PROCESS_MAX_TIMEOUT = 18000
 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -100))
     OWNER_ID = int(os.environ.get("OWNER_ID", "12356"))
